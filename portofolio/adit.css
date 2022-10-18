@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Times+New+Roman&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Times New Roman', sans-serif;
+    background-color: rgba(6, 228, 228, 0.856);
+}
+
+.wadah-navigasi{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.navigasi{
+    position: fixed;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: larger;
+    background-color: rgb(8, 226, 117);
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: all 1s ease-in-out;
+    box-shadow:3px 3px 14px rgba(0,0,0.2);
+    z-index: 99;
+}
+
+.navigasi .wadah-navigasi{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    transition: all 1s ease-in-out;
+}
+
+.navigasi ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigasi a{
+    color: rgb(9, 78, 226);
+    text-decoration: none;
+    padding: 7px 15px;
+    transition: all 1s ease-in-out;
+}
+
+.navigasi a:hover{
+    color: rgb(255, 246, 254);
+    background-color: black;
+}
+
+.logo{
+    color: blue;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.navigasi .aktif{
+    font-weight: bold;
+    color: lightblue;
+}
+
+.mana{
+    padding: 20px;
+    display: none;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-left: 10px;
+    text-align: justify;
+}
+
+.sosmed{
+    text-decoration: none;
+}
+
+.wa{
+    color: #25d366;
+}
+
+.ig{
+    color: #405de6;
+}
+
+.tg{
+    color: #ff0000;
+}
+
+.rata{
+    text-align: center;
+}
+img {
+    display: flexbox;
+    cursor: pointer;
+    width: 200px;
+    border-radius: 100%;
+    box-shadow: 1px 1px 4px blue;
+    padding: 3px;
+    transition: 0.5s;
+  }
+  
+
+  img:hover {
+    transform: scale(1.1);
+  }
